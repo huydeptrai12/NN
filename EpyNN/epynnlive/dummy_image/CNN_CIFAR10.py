@@ -1,5 +1,5 @@
 import sys
-    sys.path.append("C:\\Users\\nguye\\OneDrive\\Desktop\\CNN\\EpyNN")
+sys.path.append("C:\\Users\\nguye\\OneDrive\\Desktop\\CNN\\EpyNN")
 
 import random
 

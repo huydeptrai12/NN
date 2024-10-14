@@ -21,7 +21,7 @@ from epynn.pooling.models import Pooling
 from epynn.flatten.models import Flatten
 from epynn.dropout.models import Dropout
 from epynn.dense.models import Dense
-from epynnlive.captcha_mnist.settings import se_hPars
+from epynnlive.dummy_image.settings import se_hPars
 
 from epynnlive.dummy_image.prepare_dataset import load_mnist_data
 
