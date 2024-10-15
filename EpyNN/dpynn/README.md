@@ -1,1 +1,0 @@
-# DpyNN - EpyNN development

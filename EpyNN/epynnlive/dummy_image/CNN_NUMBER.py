@@ -35,7 +35,7 @@ np.seterr(all='warn')
 
 configure_directory()
 
-X_train, y_train, X_test, y_test = load_mnist_data(limit=1000, debug = True)
+X_train, y_train, X_test, y_test = load_mnist_data(limit=50, debug = True)
 
 embedding = Embedding(X_data=X_train,
                       Y_data=y_train,

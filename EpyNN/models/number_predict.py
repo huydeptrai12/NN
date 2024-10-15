@@ -6,11 +6,11 @@ from epynnlive.dummy_image.prepare_dataset import load_mnist_data
 from epynn.commons.metrics import metrics_functions
 
 number_file_name = "1728115903_Convolution-16-2_Pooling-3-Max_Flatten_Dense-64-relu_Dense-10-softmax.pickle"
-path = "models\\" + number_file_name
+path = "EpyNN\\models\\" + number_file_name
 print(path)
 model = read_model(path)
 
-X_train, y_train, X_test, y_test = load_mnist_data(limit=10000)
+X_train, y_train, X_test, y_test = load_mnist_data(limit=100)
 
 predicted = model.predict(X_test, X_scale = True).P
 print(X_train.shape)
